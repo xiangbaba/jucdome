@@ -27,7 +27,7 @@ public class TestConcurrent {
 		ThreadPoolExecutor poolExecutor = new ThreadPoolExecutor(
 				//核心线程数
 				5,
-				//最大线程数
+				//最大线程数 cpu密集型时一般最大线程数是cpu核心数+1
 				9,
 				//空闲线程最大存活时间
 				2,

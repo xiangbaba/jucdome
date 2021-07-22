@@ -9,7 +9,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * ReentrantLock 可重入的互斥锁,它具有与使用synchronized方法和语句所访问的饮食监视器锁相同的一些基本行为和语义,但功能更加强大.
  * ReentrantLock将有最近成功获得锁,并且还没有释放该锁的线程所拥有.当锁没有被另一个线程所拥有时,调用lock的线程将成功获取该锁并返回.如果当前线程已经拥有该锁,此方法将立即返回
  */
-public class ReentranlockTest {
+public class ReentrantLockTest {
 
 	public static void main(String[] args) {
 		final TestLock testLock = new TestLock();

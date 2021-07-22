@@ -5,6 +5,7 @@ package com.lzx;
  * @create 2021-07-13 8:40
  */
 public class MyQueue {
+
 	private final Integer maxSize;
 	/**
 	 * 前面的指针
